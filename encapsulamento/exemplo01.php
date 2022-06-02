@@ -19,11 +19,11 @@ class Pessoa{
 
 $mario = new Pessoa();
 
-//echo $mario->nome."<br>";
-//echo $mario->idade."<br>";
-//echo $mario->senha."<br>";
+//echo $mario->nome."<br>"; //ok
+//echo $mario->idade."<br>"; //Uncaught Error: Cannot access protected property Pessoa::$idade 
+//echo $mario->senha."<br>"; // Uncaught Error: Cannot access private property Pessoa::$senha
 
-$mario->verDados();
+$mario->verDados(); //ok
 
 ?>
 

@@ -27,11 +27,12 @@ class Programador extends Pessoa{
     }
 }
 
+//$mario = new Pessoa(); // traz tudo
 $mario = new Programador();
 
-//echo $mario->nome."<br>";
-//echo $mario->idade."<br>";
-//echo $mario->senha."<br>";
+//echo $mario->nome."<br>"; //ok
+//echo $mario->idade."<br>"; //not allowed
+//echo $mario->senha."<br>"; //not allowed 
 
 $mario->verDados();
 
