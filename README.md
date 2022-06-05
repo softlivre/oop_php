@@ -1,1 +1,1 @@
-# practice and concepts usaging OOP in php
+# practice and concepts of OOP in php
