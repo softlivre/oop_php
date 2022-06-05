@@ -1,0 +1,15 @@
+{
+    "name": "root/psr4",
+    "authors": [
+        {
+            "name": "softlivre",
+            "email": "softlivre1@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/App"
+        }
+    }
+}
