@@ -4,37 +4,45 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-class Carro {
+class Carro
+{
 
     private $modelo;
     private $motor;
     private $ano;
 
-    public function getModelo():string {
+    public function getModelo():string
+    {
         return $this->modelo;
     }
 
-    public function setModelo($modelo) {
+    public function setModelo($modelo)
+    {
         $this->modelo = $modelo;
     }
 
-    public function getMotor(): float {
+    public function getMotor(): float
+    {
         return $this->motor;
     }
 
-    public function setMotor($motor) {
+    public function setMotor($motor)
+    {
         $this->motor = $motor;
     }
 
-    public function getAno(): int {
+    public function getAno(): int
+    {
         return $this->ano;
     }
 
-    public function setAno($ano) {
+    public function setAno($ano)
+    {
         $this->ano = $ano;
     }
 
-    public function exibir() {
+    public function exibir()
+    {
         return array(
             "modelo" => $this->getModelo(),
             "motor" => $this->getMotor(),
